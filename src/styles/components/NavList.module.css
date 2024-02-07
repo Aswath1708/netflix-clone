@@ -1,0 +1,9 @@
+.navList{
+    display: flex;
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: white;
+        margin-left: 1rem;
+    }
+}
