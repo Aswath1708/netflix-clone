@@ -10,3 +10,11 @@
     align-items: center;
   }
 }
+
+@media screen and (width<=400px){
+  .secondaryNavList{
+    >svg:first-child{
+      display: none;
+    }
+  }
+}

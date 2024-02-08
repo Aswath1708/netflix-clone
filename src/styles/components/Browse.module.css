@@ -9,3 +9,9 @@
         display: none;
     }
 }
+
+@media screen and (width<=400px) {
+    .browse{
+        font-size: 10px;
+    }
+}

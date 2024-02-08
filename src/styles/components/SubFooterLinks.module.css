@@ -8,3 +8,10 @@
     font-size: 13px;
   }
 }
+
+@media screen and (width<=660px) {
+  .subFooterLinks{
+    grid-template-columns: repeat(2,50vw);
+    justify-items: center;
+  }
+}

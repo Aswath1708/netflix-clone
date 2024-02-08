@@ -5,3 +5,16 @@
     flex-direction: column;
     gap: 15px;
 }
+
+@media screen and (width<=1200px) {
+    .footer{
+        margin: 20px 0px 0px;
+        padding: 0 40px;
+    }
+}
+
+@media screen and (width<=400px) {
+    .footer{
+        padding: 0 10px;
+    }
+}
