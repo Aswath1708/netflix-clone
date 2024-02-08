@@ -2,8 +2,13 @@
     display: flex;
     list-style: none;
     a{
-        text-decoration: none;
         color: white;
         margin-left: 1rem;
+    }
+}
+
+@media screen and (width<920px) {
+    .navList{
+        display: none;
     }
 }

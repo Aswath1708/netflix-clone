@@ -1,0 +1,10 @@
+.browse{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (width>=920px) {
+    .browse{
+        display: none;
+    }
+}
