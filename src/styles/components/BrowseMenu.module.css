@@ -1,0 +1,19 @@
+.browseMenu {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  list-style: none;
+  li{
+    padding: 1rem;
+    text-align: center;
+  }
+  a{
+    color: white;
+  }
+}
+
+@media screen and (920px<=width) {
+  .browseMenu {
+    display: none;
+  }
+}

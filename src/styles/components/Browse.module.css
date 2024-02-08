@@ -1,6 +1,7 @@
 .browse{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 @media screen and (width>=920px) {

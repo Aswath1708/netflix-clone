@@ -1,0 +1,14 @@
+.copyRights {
+  > button {
+    color: grey;
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 0.5rem;
+    margin-bottom: 15px;
+  }
+
+  > p {
+    color: grey;
+    font-size: 13px;
+  }
+}
