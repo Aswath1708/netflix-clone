@@ -1,18 +1,42 @@
-.navBar{
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    padding: 0.3rem 3rem;
+.navBar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  padding: 0.3rem 3rem;
+  position: sticky;
+  top: 0;
+}
+
+/* .navbar {
+  position: fixed;
+
+  top: 0;
+
+  width: 100%;
+
+  background-color: transparent;
+
+  transition: background-color 0.3s ease;
+} */
+
+.scrolled {
+  background-color: var(--bg-black); /* Change this to the desired color when scrolling */
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  padding: 0.3rem 3rem;
+  position: sticky;
+  top: 0;
 }
 
 @media screen and (width<950px) {
-    .navBar{
-        padding: 0.125rem 3rem;
-    }
+  .navBar {
+    padding: 0.125rem 3rem;
+  }
 }
 
 @media screen and (width<=400px) {
-    .navBar{
-        padding: 0.125rem;
-    }
+  .navBar {
+    padding: 0.125rem;
+  }
 }

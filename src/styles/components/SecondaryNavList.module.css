@@ -1,5 +1,6 @@
 .secondaryNavList {
   display: flex;
+  align-items: center;
   svg.listIcon {
     margin-left: 1rem;
     height: 24px;
@@ -9,7 +10,26 @@
     display: flex;
     align-items: center;
   }
+
 }
+.searchBar{
+  border: 1px solid #ddd;
+  >svg{
+    padding: 6px;
+    height: 24px;
+  }
+  >input{
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+    color: #fff;
+    width: 0%;
+    &:focus{
+        outline: none;
+    }
+  }
+}
+
 
 @media screen and (width<=400px){
   .secondaryNavList{
